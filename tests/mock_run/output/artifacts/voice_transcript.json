@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "voice_transcript_mock",
+  "created_at": "2026-06-27T00:00:00Z",
+  "source_artifacts": [
+    "raw_shots.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "static-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "voice_segments": [
+    {
+      "voice_segment_id": "v_001",
+      "reference_shot_ids": [
+        "ref_001"
+      ],
+      "start_ms": 0,
+      "end_ms": 6000,
+      "text": "这个厨房小工具真的很方便",
+      "language": "zh",
+      "confidence": 0.99
+    },
+    {
+      "voice_segment_id": "v_002",
+      "reference_shot_ids": [
+        "ref_002"
+      ],
+      "start_ms": 6000,
+      "end_ms": 36000,
+      "text": "把弹力边缘拉开以后直接套在碗上",
+      "language": "zh",
+      "confidence": 0.98
+    },
+    {
+      "voice_segment_id": "v_003",
+      "reference_shot_ids": [
+        "ref_003"
+      ],
+      "start_ms": 36000,
+      "end_ms": 60000,
+      "text": "透明材质也方便查看里面的食物",
+      "language": "zh",
+      "confidence": 0.97
+    }
+  ]
+}

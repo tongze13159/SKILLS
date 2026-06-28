@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "pipeline_state",
+  "created_at": "2026-06-28T00:37:56.868623Z",
+  "source_artifacts": [],
+  "model_info": {
+    "provider": "local",
+    "model": "deterministic",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "status": "completed",
+  "dry_run": true,
+  "current_step": null,
+  "steps": {
+    "01_ingest_inputs": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/input_manifest.json"
+      ],
+      "input_hash": "68f207d2dd0aee77350705d22df00e5e1bcfa31e772b43e3f4a68a6a9058b1da",
+      "cost_rmb": 0.0
+    },
+    "02_preprocess_video": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/raw_shots.json"
+      ],
+      "input_hash": "e0150415af3475120dc6e411a00430f20f9e72dca3cd7452325a8f03913ee0cc",
+      "cost_rmb": 0.0
+    },
+    "03_extract_subtitles": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/ocr_subtitles.json"
+      ],
+      "input_hash": "2058ff99a26da1b98c9a20ce20c3e1eb2ad4d7f6e3abbef975750ff04017103e",
+      "cost_rmb": 0.0
+    },
+    "04_transcribe_voice": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/voice_transcript.json"
+      ],
+      "input_hash": "88f62b7b03dc7e08974b2dff29645f3e2c0d468e878fcf74fc5318751e2e365e",
+      "cost_rmb": 0.0
+    },
+    "05_reference_visual_analysis": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/reference_visual_analysis.json"
+      ],
+      "input_hash": "630f67e1ec04feb4e55d8aeedcd9aa4b412ef75423139bcf82cc5cb7fbe1fdb9",
+      "cost_rmb": 0.0
+    },
+    "06_reference_shot_strategy": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/reference_shot_strategy.json"
+      ],
+      "input_hash": "86c254e30cee9c64ab084b186627a51f10a0b1a38ac302a6691033b6ba846342",
+      "cost_rmb": 0.0
+    },
+    "07_product_profile": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/product_profile.json"
+      ],
+      "input_hash": "2ba5dfd7fd99f3012f9dbdb12045bead07641d0fad047a9ab7f7578c252e2b6b",
+      "cost_rmb": 0.0
+    },
+    "08_product_action_matrix": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/product_action_matrix.json"
+      ],
+      "input_hash": "6957d250866f7816c93a25c85b3792873c0313564273fa6c0e55a0cc47067aa7",
+      "cost_rmb": 0.0
+    },
+    "09_action_transfer": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/action_transfer_plan.json"
+      ],
+      "input_hash": "a9f82711da087b936c7449052372a198877fcd3dc23cf1a37c247d081f7a1195",
+      "cost_rmb": 0.0
+    },
+    "10_new_video_plan": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/new_video_plan.json"
+      ],
+      "input_hash": "d2c6a604f361a8a345330fde75fbde23808ab099c34327f866434bc5176c17f7",
+      "cost_rmb": 0.0
+    },
+    "11_subtitle_voiceover": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/subtitle_script.json",
+        "output/artifacts/voiceover_script.json"
+      ],
+      "input_hash": "5e8ad4cf6c16397bb376ed721c4491f8d5f9a348e3a7818b9cfd6c991632d513",
+      "cost_rmb": 0.0
+    },
+    "12_audio_asset_manifest": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/audio_asset_manifest.json"
+      ],
+      "input_hash": "309475422cd5f539c65d4a146a0cb3a3b6d915a35e40e1ee2ca007037e66a3f9",
+      "cost_rmb": 0.0
+    },
+    "13_storyboard_prompts": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/storyboard_prompts.json"
+      ],
+      "input_hash": "b188bea7a86fd9b7a1d7aba390d2e980f2d47eac6ad94d25ca78972071c8b3ef",
+      "cost_rmb": 0.0
+    },
+    "14_generate_storyboards": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/storyboard_manifest.json"
+      ],
+      "input_hash": "659694f59f602cd59ae98b5c0479f68ccc6ec75c792e30f1842abe86957fc3bf",
+      "cost_rmb": 0.0
+    },
+    "15_storyboard_precheck": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/storyboard_precheck.json"
+      ],
+      "input_hash": "10914eac7ebd0ebfbe6f297f8849b7f8f877d295179a4bc6e6270e2671b93fa9",
+      "cost_rmb": 0.0
+    },
+    "16_compile_seedance_tasks": {
+      "status": "done",
+      "outputs": [
+        "output/manifests/seedance_tasks.json"
+      ],
+      "input_hash": "2a0c083c7b63cf15af6d079e79cb35e5f412d57670fa443317149ec27100030f",
+      "cost_rmb": 0.0
+    },
+    "17_generate_video_clips": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/video_clips_manifest.json"
+      ],
+      "input_hash": "f16c55ab5c306132655d93d37ab455d0c8fd4b0d75b1941072d9bf5b09f700a8",
+      "cost_rmb": 0.0
+    },
+    "18_generate_voiceover": {
+      "status": "done",
+      "outputs": [
+        "output/audio/voiceover_asset_manifest.json"
+      ],
+      "input_hash": "5863bf319f446c5c1a6a3a9b46644a6a7a0e973ed64a9f8106c791e0c2c9d1d8",
+      "cost_rmb": 0.0
+    },
+    "19_render_final_video": {
+      "status": "done",
+      "outputs": [
+        "output/artifacts/render_plan.json",
+        "output/final/final_video_manifest.json"
+      ],
+      "input_hash": "4c3b73a95bcc2dd9e7f0460e36cd63bd80765c74bb22a470ff3a1535c956eb7a",
+      "cost_rmb": 0.0
+    }
+  },
+  "total_cost_rmb": 0.0,
+  "max_budget_rmb": 120,
+  "error": null
+}

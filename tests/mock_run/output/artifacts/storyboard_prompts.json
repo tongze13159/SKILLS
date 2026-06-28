@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "storyboard_prompts",
+  "created_at": "2026-06-28T00:37:56.899580Z",
+  "source_artifacts": [
+    "new_video_plan.json",
+    "product_profile.json",
+    "product_action_matrix.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "storyboard_prompts": [
+    {
+      "new_shot_id": "new_001",
+      "image_model": "flux-2-pro",
+      "prompt": "Realistic vertical ecommerce product first frame; hands touch the white elastic rim; clean_bright_table; keep transparent film texture, white elastic rim, round flexible shape; show the product clearly.",
+      "negative_prompt": "no visible face, no logo, no watermark, no copied background; do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim",
+      "reference_image_ids": [
+        "prod_main",
+        "prod_detail_01"
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "720x1280",
+      "action_start_state": "hands touch the white elastic rim",
+      "purpose": "first_frame_for_seedance"
+    },
+    {
+      "new_shot_id": "new_002",
+      "image_model": "flux-2-klein",
+      "prompt": "Realistic vertical ecommerce product first frame; covered bowl is stable on table; clean_bright_table; keep transparent film texture, white elastic rim, round flexible shape; show the product clearly.",
+      "negative_prompt": "no visible face, no logo, no watermark, no copied background; do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim",
+      "reference_image_ids": [
+        "prod_main",
+        "prod_detail_01"
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "720x1280",
+      "action_start_state": "covered bowl is stable on table",
+      "purpose": "first_frame_for_seedance"
+    },
+    {
+      "new_shot_id": "new_003",
+      "image_model": "flux-2-klein",
+      "prompt": "Realistic vertical ecommerce product first frame; covered bowl is stable on table; clean_bright_table; keep transparent film texture, white elastic rim, round flexible shape; show the product clearly.",
+      "negative_prompt": "no visible face, no logo, no watermark, no copied background; do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim",
+      "reference_image_ids": [
+        "prod_main",
+        "prod_detail_01"
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "720x1280",
+      "action_start_state": "covered bowl is stable on table",
+      "purpose": "first_frame_for_seedance"
+    },
+    {
+      "new_shot_id": "new_004",
+      "image_model": "flux-2-pro",
+      "prompt": "Realistic vertical ecommerce product first frame; covered bowl is stable on table; clean_bright_table; keep transparent film texture, white elastic rim, round flexible shape; show the product clearly.",
+      "negative_prompt": "no visible face, no logo, no watermark, no copied background; do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim",
+      "reference_image_ids": [
+        "prod_main",
+        "prod_detail_01"
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "720x1280",
+      "action_start_state": "covered bowl is stable on table",
+      "purpose": "first_frame_for_seedance"
+    },
+    {
+      "new_shot_id": "new_005",
+      "image_model": "flux-2-pro",
+      "prompt": "Realistic vertical ecommerce product first frame; covered bowl is stable on table; clean_bright_table; keep transparent film texture, white elastic rim, round flexible shape; show the product clearly.",
+      "negative_prompt": "no visible face, no logo, no watermark, no copied background; do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim",
+      "reference_image_ids": [
+        "prod_main",
+        "prod_detail_01"
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "720x1280",
+      "action_start_state": "covered bowl is stable on table",
+      "purpose": "first_frame_for_seedance"
+    }
+  ]
+}

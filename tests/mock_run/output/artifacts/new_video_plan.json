@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "new_video_plan",
+  "created_at": "2026-06-28T00:37:56.890252Z",
+  "source_artifacts": [
+    "action_transfer_plan.json",
+    "reference_shot_strategy.json",
+    "product_profile.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "new_video_plan": {
+    "project_id": "remake_campaign_001",
+    "duration_ms": 60000,
+    "shot_count": 5,
+    "target_language": "Malay",
+    "voice_gender": "female",
+    "shots": [
+      {
+        "new_shot_id": "new_001",
+        "reference_shot_id": "ref_001",
+        "duration_ms": 6000,
+        "start_ms": 0,
+        "end_ms": 6000,
+        "shot_function": "hook",
+        "commercial_purpose": "Demonstrate a truthful benefit with an original shot.",
+        "selected_action_id": "act_001",
+        "visual_action": "hands prepare to stretch the rim",
+        "camera": {
+          "angle": "top_down_45",
+          "distance": "close_up",
+          "movement": "slight_push_in"
+        },
+        "scene": {
+          "type": "kitchen_tabletop",
+          "background": "clean_bright_table"
+        },
+        "product_focus": [
+          "transparent film texture",
+          "white elastic rim"
+        ],
+        "subtitle_intent": "short truthful benefit caption",
+        "voiceover_intent": "natural useful-product sharing",
+        "must_keep_from_reference": [
+          "single clear action",
+          "fast pacing"
+        ],
+        "must_change_from_reference": [
+          "exact wording",
+          "background",
+          "music",
+          "brand elements"
+        ],
+        "generation_risks": [
+          "avoid rigid lid appearance"
+        ],
+        "source_new_shot_ids": [
+          "new_001"
+        ],
+        "source_reference_shot_ids": [
+          "ref_001"
+        ],
+        "generation_strategy": "standalone"
+      },
+      {
+        "new_shot_id": "new_002",
+        "reference_shot_id": "ref_002",
+        "duration_ms": 15000,
+        "start_ms": 6000,
+        "end_ms": 21000,
+        "shot_function": "pain_point",
+        "commercial_purpose": "Demonstrate a truthful benefit with an original shot.",
+        "selected_action_id": "act_001_fallback",
+        "visual_action": "covered bowl remains visible during a slow push-in",
+        "camera": {
+          "angle": "top_down_45",
+          "distance": "close_up",
+          "movement": "slight_push_in"
+        },
+        "scene": {
+          "type": "kitchen_tabletop",
+          "background": "clean_bright_table"
+        },
+        "product_focus": [
+          "transparent film texture",
+          "white elastic rim"
+        ],
+        "subtitle_intent": "short truthful benefit caption",
+        "voiceover_intent": "natural useful-product sharing",
+        "must_keep_from_reference": [
+          "single clear action",
+          "fast pacing"
+        ],
+        "must_change_from_reference": [
+          "exact wording",
+          "background",
+          "music",
+          "brand elements"
+        ],
+        "generation_risks": [
+          "avoid rigid lid appearance"
+        ],
+        "source_new_shot_ids": [
+          "new_002"
+        ],
+        "source_reference_shot_ids": [
+          "ref_002"
+        ],
+        "generation_strategy": "shot_split"
+      },
+      {
+        "new_shot_id": "new_003",
+        "reference_shot_id": "ref_002",
+        "duration_ms": 15000,
+        "start_ms": 21000,
+        "end_ms": 36000,
+        "shot_function": "pain_point",
+        "commercial_purpose": "Demonstrate a truthful benefit with an original shot.",
+        "selected_action_id": "act_001_fallback",
+        "visual_action": "covered bowl remains visible during a slow push-in",
+        "camera": {
+          "angle": "top_down_45",
+          "distance": "close_up",
+          "movement": "slight_push_in"
+        },
+        "scene": {
+          "type": "kitchen_tabletop",
+          "background": "clean_bright_table"
+        },
+        "product_focus": [
+          "transparent film texture",
+          "white elastic rim"
+        ],
+        "subtitle_intent": "short truthful benefit caption",
+        "voiceover_intent": "natural useful-product sharing",
+        "must_keep_from_reference": [
+          "single clear action",
+          "fast pacing"
+        ],
+        "must_change_from_reference": [
+          "exact wording",
+          "background",
+          "music",
+          "brand elements"
+        ],
+        "generation_risks": [
+          "avoid rigid lid appearance"
+        ],
+        "source_new_shot_ids": [
+          "new_002"
+        ],
+        "source_reference_shot_ids": [
+          "ref_002"
+        ],
+        "generation_strategy": "shot_split"
+      },
+      {
+        "new_shot_id": "new_004",
+        "reference_shot_id": "ref_003",
+        "duration_ms": 12000,
+        "start_ms": 36000,
+        "end_ms": 48000,
+        "shot_function": "cta",
+        "commercial_purpose": "Demonstrate a truthful benefit with an original shot.",
+        "selected_action_id": "act_001_fallback",
+        "visual_action": "covered bowl remains visible during a slow push-in",
+        "camera": {
+          "angle": "top_down_45",
+          "distance": "close_up",
+          "movement": "slight_push_in"
+        },
+        "scene": {
+          "type": "kitchen_tabletop",
+          "background": "clean_bright_table"
+        },
+        "product_focus": [
+          "transparent film texture",
+          "white elastic rim"
+        ],
+        "subtitle_intent": "short truthful benefit caption",
+        "voiceover_intent": "natural useful-product sharing",
+        "must_keep_from_reference": [
+          "single clear action",
+          "fast pacing"
+        ],
+        "must_change_from_reference": [
+          "exact wording",
+          "background",
+          "music",
+          "brand elements"
+        ],
+        "generation_risks": [
+          "avoid rigid lid appearance"
+        ],
+        "source_new_shot_ids": [
+          "new_003"
+        ],
+        "source_reference_shot_ids": [
+          "ref_003"
+        ],
+        "generation_strategy": "shot_split"
+      },
+      {
+        "new_shot_id": "new_005",
+        "reference_shot_id": "ref_003",
+        "duration_ms": 12000,
+        "start_ms": 48000,
+        "end_ms": 60000,
+        "shot_function": "cta",
+        "commercial_purpose": "Demonstrate a truthful benefit with an original shot.",
+        "selected_action_id": "act_001_fallback",
+        "visual_action": "covered bowl remains visible during a slow push-in",
+        "camera": {
+          "angle": "top_down_45",
+          "distance": "close_up",
+          "movement": "slight_push_in"
+        },
+        "scene": {
+          "type": "kitchen_tabletop",
+          "background": "clean_bright_table"
+        },
+        "product_focus": [
+          "transparent film texture",
+          "white elastic rim"
+        ],
+        "subtitle_intent": "short truthful benefit caption",
+        "voiceover_intent": "natural useful-product sharing",
+        "must_keep_from_reference": [
+          "single clear action",
+          "fast pacing"
+        ],
+        "must_change_from_reference": [
+          "exact wording",
+          "background",
+          "music",
+          "brand elements"
+        ],
+        "generation_risks": [
+          "avoid rigid lid appearance"
+        ],
+        "source_new_shot_ids": [
+          "new_003"
+        ],
+        "source_reference_shot_ids": [
+          "ref_003"
+        ],
+        "generation_strategy": "shot_split"
+      }
+    ],
+    "source_reference_shot_count": 3
+  }
+}

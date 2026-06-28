@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "reference_visual_analysis",
+  "created_at": "2026-06-27T11:21:08.743323Z",
+  "source_artifacts": [
+    "raw_shots.json",
+    "ocr_subtitles.json",
+    "voice_transcript.json"
+  ],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "reference_shots": [
+    {
+      "reference_shot_id": "ref_001",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "high",
+      "visible_text": "Reference caption 1",
+      "voice_text": "Reference voice segment 1"
+    },
+    {
+      "reference_shot_id": "ref_002",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 2",
+      "voice_text": "Reference voice segment 2"
+    },
+    {
+      "reference_shot_id": "ref_003",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 3",
+      "voice_text": "Reference voice segment 3"
+    },
+    {
+      "reference_shot_id": "ref_004",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 4",
+      "voice_text": "Reference voice segment 4"
+    },
+    {
+      "reference_shot_id": "ref_005",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "high",
+      "visible_text": "Reference caption 5",
+      "voice_text": "Reference voice segment 5"
+    },
+    {
+      "reference_shot_id": "ref_006",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 6",
+      "voice_text": "Reference voice segment 6"
+    },
+    {
+      "reference_shot_id": "ref_007",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 7",
+      "voice_text": "Reference voice segment 7"
+    },
+    {
+      "reference_shot_id": "ref_008",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 8",
+      "voice_text": "Reference voice segment 8"
+    },
+    {
+      "reference_shot_id": "ref_009",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "high",
+      "visible_text": "Reference caption 9",
+      "voice_text": "Reference voice segment 9"
+    },
+    {
+      "reference_shot_id": "ref_010",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 10",
+      "voice_text": "Reference voice segment 10"
+    },
+    {
+      "reference_shot_id": "ref_011",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 11",
+      "voice_text": "Reference voice segment 11"
+    },
+    {
+      "reference_shot_id": "ref_012",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 12",
+      "voice_text": "Reference voice segment 12"
+    },
+    {
+      "reference_shot_id": "ref_013",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "high",
+      "visible_text": "Reference caption 13",
+      "voice_text": "Reference voice segment 13"
+    },
+    {
+      "reference_shot_id": "ref_014",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 14",
+      "voice_text": "Reference voice segment 14"
+    },
+    {
+      "reference_shot_id": "ref_015",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 15",
+      "voice_text": "Reference voice segment 15"
+    },
+    {
+      "reference_shot_id": "ref_016",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 16",
+      "voice_text": "Reference voice segment 16"
+    },
+    {
+      "reference_shot_id": "ref_017",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 17",
+      "voice_text": "Reference voice segment 17"
+    },
+    {
+      "reference_shot_id": "ref_018",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 18",
+      "voice_text": "Reference voice segment 18"
+    },
+    {
+      "reference_shot_id": "ref_019",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 19",
+      "voice_text": "Reference voice segment 19"
+    },
+    {
+      "reference_shot_id": "ref_020",
+      "visual_description": "Close-up product demonstration on a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "product",
+        "hands",
+        "glass_bowl"
+      ],
+      "product_action": "product is revealed and demonstrated",
+      "hand_action": "hands operate product without showing a face",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "Reference caption 20",
+      "voice_text": "Reference voice segment 20"
+    }
+  ]
+}

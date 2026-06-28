@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "storyboard_precheck",
+  "created_at": "2026-06-28T00:37:56.905365Z",
+  "source_artifacts": [
+    "storyboard_manifest.json",
+    "product_profile.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "storyboard_precheck": [
+    {
+      "new_shot_id": "new_001",
+      "image_id": "sb_001",
+      "pass": true,
+      "issues": [],
+      "product_similarity": "high",
+      "has_visible_face": false,
+      "has_watermark": false,
+      "suitable_as_action_start": true,
+      "selected_for_seedance": true,
+      "recommended_action_id": "act_001"
+    },
+    {
+      "new_shot_id": "new_002",
+      "image_id": "sb_002",
+      "pass": true,
+      "issues": [],
+      "product_similarity": "high",
+      "has_visible_face": false,
+      "has_watermark": false,
+      "suitable_as_action_start": true,
+      "selected_for_seedance": true,
+      "recommended_action_id": "act_001"
+    },
+    {
+      "new_shot_id": "new_003",
+      "image_id": "sb_003",
+      "pass": true,
+      "issues": [],
+      "product_similarity": "high",
+      "has_visible_face": false,
+      "has_watermark": false,
+      "suitable_as_action_start": true,
+      "selected_for_seedance": true,
+      "recommended_action_id": "act_001"
+    },
+    {
+      "new_shot_id": "new_004",
+      "image_id": "sb_004",
+      "pass": true,
+      "issues": [],
+      "product_similarity": "high",
+      "has_visible_face": false,
+      "has_watermark": false,
+      "suitable_as_action_start": true,
+      "selected_for_seedance": true,
+      "recommended_action_id": "act_001"
+    },
+    {
+      "new_shot_id": "new_005",
+      "image_id": "sb_005",
+      "pass": true,
+      "issues": [],
+      "product_similarity": "high",
+      "has_visible_face": false,
+      "has_watermark": false,
+      "suitable_as_action_start": true,
+      "selected_for_seedance": true,
+      "recommended_action_id": "act_001"
+    }
+  ]
+}

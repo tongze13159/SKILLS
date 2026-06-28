@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "storyboard_manifest",
+  "created_at": "2026-06-28T00:37:56.902831Z",
+  "source_artifacts": [
+    "storyboard_prompts.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "storyboards": [
+    {
+      "new_shot_id": "new_001",
+      "image_id": "sb_001",
+      "image_path": "output/storyboards/sb_001.png",
+      "model": "flux-2-pro",
+      "source_prompt_id": "new_001",
+      "selected": true
+    },
+    {
+      "new_shot_id": "new_002",
+      "image_id": "sb_002",
+      "image_path": "output/storyboards/sb_002.png",
+      "model": "flux-2-klein",
+      "source_prompt_id": "new_002",
+      "selected": true
+    },
+    {
+      "new_shot_id": "new_003",
+      "image_id": "sb_003",
+      "image_path": "output/storyboards/sb_003.png",
+      "model": "flux-2-klein",
+      "source_prompt_id": "new_003",
+      "selected": true
+    },
+    {
+      "new_shot_id": "new_004",
+      "image_id": "sb_004",
+      "image_path": "output/storyboards/sb_004.png",
+      "model": "flux-2-pro",
+      "source_prompt_id": "new_004",
+      "selected": true
+    },
+    {
+      "new_shot_id": "new_005",
+      "image_id": "sb_005",
+      "image_path": "output/storyboards/sb_005.png",
+      "model": "flux-2-pro",
+      "source_prompt_id": "new_005",
+      "selected": true
+    }
+  ]
+}

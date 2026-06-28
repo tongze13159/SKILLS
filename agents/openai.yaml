@@ -1,0 +1,4 @@
+interface:
+  display_name: "爆款分镜复刻生产版"
+  short_description: "Build resumable no-face ecommerce video remake pipelines"
+  default_prompt: "Use $viral-shot-remake-production to build or run a dry-run-first ecommerce shot-remake pipeline."

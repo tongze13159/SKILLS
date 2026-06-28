@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "voice_transcript",
+  "created_at": "2026-06-27T11:21:08.740770Z",
+  "source_artifacts": [
+    "raw_shots.json"
+  ],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "voice_segments": [
+    {
+      "voice_segment_id": "v_001",
+      "reference_shot_ids": [
+        "ref_001"
+      ],
+      "start_ms": 0,
+      "end_ms": 3000,
+      "text": "Reference voice segment 1",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_002",
+      "reference_shot_ids": [
+        "ref_002"
+      ],
+      "start_ms": 3000,
+      "end_ms": 6000,
+      "text": "Reference voice segment 2",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_003",
+      "reference_shot_ids": [
+        "ref_003"
+      ],
+      "start_ms": 6000,
+      "end_ms": 9000,
+      "text": "Reference voice segment 3",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_004",
+      "reference_shot_ids": [
+        "ref_004"
+      ],
+      "start_ms": 9000,
+      "end_ms": 12000,
+      "text": "Reference voice segment 4",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_005",
+      "reference_shot_ids": [
+        "ref_005"
+      ],
+      "start_ms": 12000,
+      "end_ms": 15000,
+      "text": "Reference voice segment 5",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_006",
+      "reference_shot_ids": [
+        "ref_006"
+      ],
+      "start_ms": 15000,
+      "end_ms": 18000,
+      "text": "Reference voice segment 6",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_007",
+      "reference_shot_ids": [
+        "ref_007"
+      ],
+      "start_ms": 18000,
+      "end_ms": 21000,
+      "text": "Reference voice segment 7",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_008",
+      "reference_shot_ids": [
+        "ref_008"
+      ],
+      "start_ms": 21000,
+      "end_ms": 24000,
+      "text": "Reference voice segment 8",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_009",
+      "reference_shot_ids": [
+        "ref_009"
+      ],
+      "start_ms": 24000,
+      "end_ms": 27000,
+      "text": "Reference voice segment 9",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_010",
+      "reference_shot_ids": [
+        "ref_010"
+      ],
+      "start_ms": 27000,
+      "end_ms": 30000,
+      "text": "Reference voice segment 10",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_011",
+      "reference_shot_ids": [
+        "ref_011"
+      ],
+      "start_ms": 30000,
+      "end_ms": 33000,
+      "text": "Reference voice segment 11",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_012",
+      "reference_shot_ids": [
+        "ref_012"
+      ],
+      "start_ms": 33000,
+      "end_ms": 36000,
+      "text": "Reference voice segment 12",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_013",
+      "reference_shot_ids": [
+        "ref_013"
+      ],
+      "start_ms": 36000,
+      "end_ms": 39000,
+      "text": "Reference voice segment 13",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_014",
+      "reference_shot_ids": [
+        "ref_014"
+      ],
+      "start_ms": 39000,
+      "end_ms": 42000,
+      "text": "Reference voice segment 14",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_015",
+      "reference_shot_ids": [
+        "ref_015"
+      ],
+      "start_ms": 42000,
+      "end_ms": 45000,
+      "text": "Reference voice segment 15",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_016",
+      "reference_shot_ids": [
+        "ref_016"
+      ],
+      "start_ms": 45000,
+      "end_ms": 48000,
+      "text": "Reference voice segment 16",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_017",
+      "reference_shot_ids": [
+        "ref_017"
+      ],
+      "start_ms": 48000,
+      "end_ms": 51000,
+      "text": "Reference voice segment 17",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_018",
+      "reference_shot_ids": [
+        "ref_018"
+      ],
+      "start_ms": 51000,
+      "end_ms": 54000,
+      "text": "Reference voice segment 18",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_019",
+      "reference_shot_ids": [
+        "ref_019"
+      ],
+      "start_ms": 54000,
+      "end_ms": 57000,
+      "text": "Reference voice segment 19",
+      "language": "zh",
+      "confidence": 0.92
+    },
+    {
+      "voice_segment_id": "v_020",
+      "reference_shot_ids": [
+        "ref_020"
+      ],
+      "start_ms": 57000,
+      "end_ms": 60000,
+      "text": "Reference voice segment 20",
+      "language": "zh",
+      "confidence": 0.92
+    }
+  ]
+}

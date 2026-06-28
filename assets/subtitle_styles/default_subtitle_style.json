@@ -1,0 +1,11 @@
+{
+  "font_family": "Noto Sans",
+  "font_size_px": 46,
+  "font_weight": 700,
+  "text_color": "#FFFFFF",
+  "stroke_color": "#000000",
+  "stroke_width_px": 3,
+  "position": "bottom_center",
+  "safe_margin_bottom_px": 180,
+  "max_lines": 2
+}

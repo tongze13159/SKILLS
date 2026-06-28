@@ -1,0 +1,5 @@
+{
+  "reference_video": "./examples/fake_reference.mp4",
+  "product_images": "./examples/product_images",
+  "notes": "Paths may be placeholders in dry-run mode; no provider receives these files."
+}

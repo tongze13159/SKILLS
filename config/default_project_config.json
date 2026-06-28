@@ -1,0 +1,75 @@
+{
+  "project_id": "remake_campaign_001",
+  "target_market": {
+    "country": "Malaysia",
+    "primary_language": "Malay",
+    "localization_style": "social_commerce_casual",
+    "allow_slang": true
+  },
+  "video_specs": {
+    "aspect_ratio": "9:16",
+    "target_resolution": "720p",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "target_duration_ms": 60000,
+    "default_shot_duration_ms": 3000
+  },
+  "audio_rules": {
+    "voice_gender": "female",
+    "voice_style": "natural_ecommerce_sharing",
+    "bgm_mood": "upbeat_trendy",
+    "target_bpm": 120,
+    "use_sfx": true,
+    "no_original_music_reuse": true,
+    "voice_volume_db": -6,
+    "bgm_volume_db": -18,
+    "sfx_volume_db": -8
+  },
+  "generation_constraints": {
+    "no_visible_face": true,
+    "hand_only_allowed": true,
+    "remake_similarity_target": 0.7,
+    "min_difference_target": 0.35,
+    "max_storyboard_images": 50,
+    "max_json_repair_retries": 3,
+    "max_seedance_retries_per_shot": 1,
+    "allow_seedance_retry": false,
+    "allow_fallback_action": true,
+    "strict_real_mode": true
+  },
+  "cost_rules": {
+    "seedance_cost_rmb_per_second": 1.0,
+    "max_total_cost_rmb": 120,
+    "warn_total_cost_rmb": 100,
+    "stop_on_budget_exceeded": true,
+    "api_unit_prices": {
+      "openai_stt_rmb_per_minute": 0.045,
+      "gemini_video_rmb_per_call": 0.9,
+      "openai_text_rmb_per_call": 0.12,
+      "openai_vision_rmb_per_image": 0.08,
+      "openai_image_generate_rmb_per_call": 0.35,
+      "openai_image_edit_rmb_per_call": 0.4,
+      "flux_image_rmb_per_call": 0.6,
+      "elevenlabs_tts_rmb_per_1k_chars": 0.08
+    }
+  },
+  "model_defaults": {
+    "main_reasoning_model": "gpt-5.5",
+    "cheap_text_model": "gpt-5.4-mini",
+    "vision_model": "gpt-5.5",
+    "video_understanding_model": "gemini-video",
+    "storyboard_image_provider": "openai",
+    "storyboard_image_model": "gpt-image-1",
+    "storyboard_normal_model": "flux-2-klein",
+    "storyboard_key_model": "flux-2-pro",
+    "tts_model": "elevenlabs-multilingual"
+  },
+  "quality_rules": {
+    "one_main_action_per_shot": true,
+    "require_product_consistency_rules": true,
+    "require_negative_prompt": true,
+    "require_storyboard_precheck": true,
+    "require_duration_normalization": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "reference_shot_strategy",
+  "created_at": "2026-06-28T00:37:56.880709Z",
+  "source_artifacts": [
+    "reference_visual_analysis.json",
+    "ocr_subtitles.json",
+    "voice_transcript.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "reference_shots": [
+    {
+      "reference_shot_id": "ref_001",
+      "shot_function": "hook",
+      "commercial_purpose": "Show a clear product benefit with original execution.",
+      "viewer_psychology": "curiosity",
+      "why_it_works": "One readable action and a close product view reduce ambiguity.",
+      "remake_value": "high",
+      "must_keep_logic": [
+        "single clear action",
+        "close product focus",
+        "fast pacing"
+      ],
+      "must_change": [
+        "exact wording",
+        "exact background layout",
+        "music",
+        "watermark",
+        "brand elements"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_002",
+      "shot_function": "pain_point",
+      "commercial_purpose": "Show a clear product benefit with original execution.",
+      "viewer_psychology": "confidence",
+      "why_it_works": "One readable action and a close product view reduce ambiguity.",
+      "remake_value": "high",
+      "must_keep_logic": [
+        "single clear action",
+        "close product focus",
+        "fast pacing"
+      ],
+      "must_change": [
+        "exact wording",
+        "exact background layout",
+        "music",
+        "watermark",
+        "brand elements"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_003",
+      "shot_function": "cta",
+      "commercial_purpose": "Show a clear product benefit with original execution.",
+      "viewer_psychology": "confidence",
+      "why_it_works": "One readable action and a close product view reduce ambiguity.",
+      "remake_value": "high",
+      "must_keep_logic": [
+        "single clear action",
+        "close product focus",
+        "fast pacing"
+      ],
+      "must_change": [
+        "exact wording",
+        "exact background layout",
+        "music",
+        "watermark",
+        "brand elements"
+      ]
+    }
+  ],
+  "overall_structure": {
+    "hook_ms": [
+      0,
+      9000
+    ],
+    "problem_ms": [
+      9000,
+      24000
+    ],
+    "proof_ms": [
+      24000,
+      42000
+    ],
+    "scenario_ms": [
+      42000,
+      54000
+    ],
+    "cta_ms": [
+      54000,
+      60000
+    ]
+  }
+}

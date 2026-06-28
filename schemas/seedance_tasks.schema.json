@@ -1,0 +1,317 @@
+{
+  "$defs": {
+    "Camera": {
+      "additionalProperties": false,
+      "properties": {
+        "angle": {
+          "title": "Angle",
+          "type": "string"
+        },
+        "distance": {
+          "title": "Distance",
+          "type": "string"
+        },
+        "movement": {
+          "title": "Movement",
+          "type": "string"
+        }
+      },
+      "required": [
+        "angle",
+        "distance",
+        "movement"
+      ],
+      "title": "Camera",
+      "type": "object"
+    },
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "model": {
+          "title": "Model",
+          "type": "string"
+        },
+        "temperature": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Temperature"
+        }
+      },
+      "required": [
+        "provider",
+        "model"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    },
+    "SeedanceTask": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "title": "Task Id",
+          "type": "string"
+        },
+        "project_id": {
+          "title": "Project Id",
+          "type": "string"
+        },
+        "new_shot_id": {
+          "title": "New Shot Id",
+          "type": "string"
+        },
+        "reference_shot_id": {
+          "title": "Reference Shot Id",
+          "type": "string"
+        },
+        "product_id": {
+          "title": "Product Id",
+          "type": "string"
+        },
+        "action_id": {
+          "title": "Action Id",
+          "type": "string"
+        },
+        "duration_ms": {
+          "exclusiveMinimum": 0,
+          "title": "Duration Ms",
+          "type": "integer"
+        },
+        "resolution": {
+          "title": "Resolution",
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "title": "Aspect Ratio",
+          "type": "string"
+        },
+        "fps": {
+          "exclusiveMinimum": 0,
+          "title": "Fps",
+          "type": "integer"
+        },
+        "input_image": {
+          "title": "Input Image",
+          "type": "string"
+        },
+        "input_images": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Input Images",
+          "type": "array"
+        },
+        "prompt": {
+          "title": "Prompt",
+          "type": "string"
+        },
+        "negative_prompt": {
+          "title": "Negative Prompt",
+          "type": "string"
+        },
+        "camera": {
+          "$ref": "#/$defs/Camera"
+        },
+        "motion": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Motion",
+          "type": "object"
+        },
+        "product_consistency_rules": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Product Consistency Rules",
+          "type": "array"
+        },
+        "difference_rules": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Difference Rules",
+          "type": "array"
+        },
+        "seedance_duration_sec": {
+          "maximum": 15,
+          "minimum": 4,
+          "title": "Seedance Duration Sec",
+          "type": "integer"
+        },
+        "merge_strategy": {
+          "enum": [
+            "standalone",
+            "adjacent_merge",
+            "shot_split"
+          ],
+          "title": "Merge Strategy",
+          "type": "string"
+        },
+        "source_new_shot_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source New Shot Ids",
+          "type": "array"
+        },
+        "source_reference_shot_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Reference Shot Ids",
+          "type": "array"
+        },
+        "source_action_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Action Ids",
+          "type": "array"
+        },
+        "source_segments": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "minItems": 1,
+          "title": "Source Segments",
+          "type": "array"
+        },
+        "fallback": {
+          "additionalProperties": true,
+          "title": "Fallback",
+          "type": "object"
+        },
+        "estimated_cost_rmb": {
+          "minimum": 0,
+          "title": "Estimated Cost Rmb",
+          "type": "number"
+        }
+      },
+      "required": [
+        "task_id",
+        "project_id",
+        "new_shot_id",
+        "reference_shot_id",
+        "product_id",
+        "action_id",
+        "duration_ms",
+        "resolution",
+        "aspect_ratio",
+        "fps",
+        "input_image",
+        "input_images",
+        "prompt",
+        "negative_prompt",
+        "camera",
+        "motion",
+        "product_consistency_rules",
+        "difference_rules",
+        "seedance_duration_sec",
+        "merge_strategy",
+        "source_new_shot_ids",
+        "source_reference_shot_ids",
+        "source_action_ids",
+        "source_segments",
+        "fallback",
+        "estimated_cost_rmb"
+      ],
+      "title": "SeedanceTask",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "artifact_id": {
+      "title": "Artifact Id",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "source_artifacts": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Artifacts",
+      "type": "array"
+    },
+    "model_info": {
+      "$ref": "#/$defs/ModelInfo"
+    },
+    "cost_rmb": {
+      "default": 0.0,
+      "minimum": 0,
+      "title": "Cost Rmb",
+      "type": "number"
+    },
+    "seedance_tasks": {
+      "items": {
+        "$ref": "#/$defs/SeedanceTask"
+      },
+      "title": "Seedance Tasks",
+      "type": "array"
+    },
+    "estimated_total_cost_rmb": {
+      "minimum": 0,
+      "title": "Estimated Total Cost Rmb",
+      "type": "number"
+    },
+    "budget_rmb": {
+      "minimum": 0,
+      "title": "Budget Rmb",
+      "type": "number"
+    },
+    "budget_status": {
+      "enum": [
+        "ok",
+        "warning",
+        "blocked"
+      ],
+      "title": "Budget Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_id",
+    "artifact_id",
+    "created_at",
+    "model_info",
+    "seedance_tasks",
+    "estimated_total_cost_rmb",
+    "budget_rmb",
+    "budget_status"
+  ],
+  "title": "SeedanceTasksArtifact",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seedance_tasks.schema.json"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "product_profile_mock",
+  "created_at": "2026-06-27T00:00:00Z",
+  "source_artifacts": ["mock_product_front.png", "mock_product_detail.png"],
+  "model_info": {
+    "provider": "mock",
+    "model": "static-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "product_profile": {
+    "product_id": "prod_001",
+    "category": "kitchen_food_cover",
+    "shape": "round_flexible_cover",
+    "colors": ["transparent", "white"],
+    "materials": ["thin_plastic_film", "elastic_rim"],
+    "visible_features": [
+      "transparent film",
+      "white elastic rim",
+      "round flexible shape"
+    ],
+    "main_selling_points": [
+      "easy to stretch",
+      "fits bowls and plates",
+      "keeps food covered"
+    ],
+    "usable_actions": [
+      "stretch_elastic_edge",
+      "cover_bowl",
+      "show_snap_back"
+    ],
+    "unsuitable_actions": [
+      "press_like_hard_lid",
+      "stand_upright_alone"
+    ],
+    "must_keep_visual_details": [
+      "transparent film texture",
+      "white elastic rim",
+      "round flexible shape"
+    ],
+    "avoid_deformation": [
+      "do_not_turn_into_plastic_bag",
+      "do_not_become_rigid_lid",
+      "do_not_remove_elastic_rim"
+    ],
+    "physical_constraints": [
+      "flexible not rigid",
+      "thin not thick",
+      "stretchable edge is key"
+    ],
+    "user_truth_override": {
+      "confirmed_selling_points": [],
+      "forbidden_claims": [],
+      "must_show_sku": ""
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "reference_visual_analysis_mock",
+  "created_at": "2026-06-27T00:00:00Z",
+  "source_artifacts": [
+    "raw_shots.json",
+    "ocr_subtitles.json",
+    "voice_transcript.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "static-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "reference_shots": [
+    {
+      "reference_shot_id": "ref_001",
+      "visual_description": "A transparent elastic food cover slides onto a bright kitchen table.",
+      "main_subject": "product",
+      "visible_objects": [
+        "food_cover",
+        "glass_bowl",
+        "hands"
+      ],
+      "product_action": "product slides into frame",
+      "hand_action": "one hand places the product",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "high",
+      "visible_text": "厨房收纳原来可以这么简单",
+      "voice_text": "这个厨房小工具真的很方便"
+    },
+    {
+      "reference_shot_id": "ref_002",
+      "visual_description": "Two hands stretch the white elastic rim toward a glass bowl.",
+      "main_subject": "product",
+      "visible_objects": [
+        "food_cover",
+        "glass_bowl",
+        "hands"
+      ],
+      "product_action": "elastic rim stretches over bowl",
+      "hand_action": "two hands pull outward",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "static",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "medium",
+      "visible_text": "轻轻一拉就能盖住碗口",
+      "voice_text": "把弹力边缘拉开以后直接套在碗上"
+    },
+    {
+      "reference_shot_id": "ref_003",
+      "visual_description": "The covered bowl remains on the table while the camera moves closer.",
+      "main_subject": "covered_bowl",
+      "visible_objects": [
+        "food_cover",
+        "glass_bowl"
+      ],
+      "product_action": "covered bowl remains stable",
+      "hand_action": "no hand action",
+      "camera_angle": "top_down_45",
+      "camera_distance": "close_up",
+      "camera_movement": "slight_push_in",
+      "scene_type": "kitchen_tabletop",
+      "motion_intensity": "low",
+      "visible_text": "剩菜保存更整洁",
+      "voice_text": "透明材质也方便查看里面的食物"
+    }
+  ]
+}

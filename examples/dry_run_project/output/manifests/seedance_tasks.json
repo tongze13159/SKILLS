@@ -1,0 +1,844 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "seedance_tasks",
+  "created_at": "2026-06-27T11:21:08.772022Z",
+  "source_artifacts": [
+    "new_video_plan.json",
+    "product_profile.json",
+    "product_action_matrix.json",
+    "storyboard_manifest.json",
+    "storyboard_precheck.json"
+  ],
+  "model_info": {
+    "provider": "local",
+    "model": "deterministic",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "seedance_tasks": [
+    {
+      "task_id": "sd_new_001",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_001",
+      "reference_shot_id": "ref_001",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_001.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_002",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_002",
+      "reference_shot_id": "ref_002",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_002.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_003",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_003",
+      "reference_shot_id": "ref_003",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_003.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_004",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_004",
+      "reference_shot_id": "ref_004",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_004.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_005",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_005",
+      "reference_shot_id": "ref_005",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_005.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_006",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_006",
+      "reference_shot_id": "ref_006",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_006.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_007",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_007",
+      "reference_shot_id": "ref_007",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_007.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_008",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_008",
+      "reference_shot_id": "ref_008",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_008.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_009",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_009",
+      "reference_shot_id": "ref_009",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_009.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_010",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_010",
+      "reference_shot_id": "ref_010",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_010.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_011",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_011",
+      "reference_shot_id": "ref_011",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_011.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_012",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_012",
+      "reference_shot_id": "ref_012",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_012.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_013",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_013",
+      "reference_shot_id": "ref_013",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_013.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_014",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_014",
+      "reference_shot_id": "ref_014",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_014.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_015",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_015",
+      "reference_shot_id": "ref_015",
+      "product_id": "prod_001",
+      "action_id": "act_001",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_015.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: hands touch the white elastic rim -> hands stretch the rim outward with visible tension -> cover moves toward the bowl edge.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, rigid_pressing, overstretching",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "hands touch the white elastic rim",
+        "main_motion": "hands stretch the rim outward with visible tension",
+        "end_state": "cover moves toward the bowl edge"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": "act_001_fallback",
+        "fallback_prompt_patch": "Use the declared low-risk fallback action."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_016",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_016",
+      "reference_shot_id": "ref_016",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_016.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_017",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_017",
+      "reference_shot_id": "ref_017",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_017.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_018",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_018",
+      "reference_shot_id": "ref_018",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_018.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_019",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_019",
+      "reference_shot_id": "ref_019",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_019.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    },
+    {
+      "task_id": "sd_new_020",
+      "project_id": "remake_campaign_001",
+      "new_shot_id": "new_020",
+      "reference_shot_id": "ref_020",
+      "product_id": "prod_001",
+      "action_id": "act_001_fallback",
+      "duration_ms": 3000,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "fps": 30,
+      "input_image": "output/storyboards/sb_020.png",
+      "prompt": "Generate a 3-second realistic TikTok-style ecommerce product demo clip.\nStart from the provided storyboard image.\nAction: covered bowl is stable on table -> camera slowly pushes in -> elastic rim and transparent film remain visible.\nCamera: top_down_45, close_up, slight_push_in.\nScene: kitchen_tabletop, clean_bright_table.\nProduct must keep: transparent film texture, white elastic rim, round flexible shape.\nAvoid: do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim.\nKeep reference logic: single clear action, fast pacing.\nChange from reference: exact wording, background, music, brand elements.\nDo not show a visible face, watermark, logo, unrelated objects, or original brand elements.",
+      "negative_prompt": "no visible face, no watermark, no logo, no copied brand elements, do_not_turn_into_plastic_bag, do_not_become_rigid_lid, do_not_remove_elastic_rim, hands_hide_product",
+      "camera": {
+        "angle": "top_down_45",
+        "distance": "close_up",
+        "movement": "slight_push_in"
+      },
+      "motion": {
+        "start_state": "covered bowl is stable on table",
+        "main_motion": "camera slowly pushes in",
+        "end_state": "elastic rim and transparent film remain visible"
+      },
+      "product_consistency_rules": [
+        "transparent film texture",
+        "white elastic rim",
+        "round flexible shape"
+      ],
+      "difference_rules": [
+        "exact wording",
+        "background",
+        "music",
+        "brand elements"
+      ],
+      "fallback": {
+        "fallback_action_id": null,
+        "fallback_prompt_patch": "No further fallback is available; stop for human review."
+      },
+      "estimated_cost_rmb": 3.0
+    }
+  ],
+  "estimated_total_cost_rmb": 60.0,
+  "budget_rmb": 120,
+  "budget_status": "ok"
+}

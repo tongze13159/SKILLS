@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "product_action_matrix",
+  "created_at": "2026-06-27T11:21:08.748525Z",
+  "source_artifacts": [
+    "product_profile.json",
+    "reference_shot_strategy.json"
+  ],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "product_action_matrix": [
+    {
+      "action_id": "act_001",
+      "action_name": "stretch_elastic_edge_over_bowl",
+      "difficulty": "high",
+      "video_generation_risk": "high",
+      "visual_clarity": "high",
+      "suitable_shot_functions": [
+        "hook",
+        "function_demo",
+        "proof"
+      ],
+      "required_props": [
+        "glass_bowl",
+        "hands"
+      ],
+      "best_camera": {
+        "angle": "top_down_45",
+        "distance": "close_up"
+      },
+      "start_state": "hands touch the white elastic rim",
+      "main_motion": "hands stretch the rim outward with visible tension",
+      "end_state": "cover moves toward the bowl edge",
+      "avoid": [
+        "rigid_pressing",
+        "overstretching"
+      ],
+      "fallback_action_id": "act_001_fallback"
+    },
+    {
+      "action_id": "act_001_fallback",
+      "action_name": "static_close_up_covered_bowl",
+      "difficulty": "low",
+      "video_generation_risk": "low",
+      "visual_clarity": "high",
+      "suitable_shot_functions": [
+        "pain_point",
+        "product_reveal",
+        "scenario",
+        "transition",
+        "cta"
+      ],
+      "required_props": [
+        "glass_bowl"
+      ],
+      "best_camera": {
+        "angle": "top_down_45",
+        "distance": "close_up"
+      },
+      "start_state": "covered bowl is stable on table",
+      "main_motion": "camera slowly pushes in",
+      "end_state": "elastic rim and transparent film remain visible",
+      "avoid": [
+        "hands_hide_product"
+      ],
+      "fallback_action_id": null
+    }
+  ]
+}

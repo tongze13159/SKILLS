@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "voiceover_asset_manifest",
+  "created_at": "2026-06-28T00:37:56.915363Z",
+  "source_artifacts": [
+    "voiceover_script.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "voiceover": {
+    "status": "dry_run_placeholder",
+    "path": "output/audio/voiceover.wav",
+    "language": "Malay",
+    "actual_cost_rmb": 0.0
+  },
+  "segments": [
+    {
+      "new_shot_id": "new_001",
+      "max_duration_ms": 6000,
+      "status": "dry_run_placeholder"
+    },
+    {
+      "new_shot_id": "new_002",
+      "max_duration_ms": 15000,
+      "status": "dry_run_placeholder"
+    },
+    {
+      "new_shot_id": "new_003",
+      "max_duration_ms": 15000,
+      "status": "dry_run_placeholder"
+    },
+    {
+      "new_shot_id": "new_004",
+      "max_duration_ms": 12000,
+      "status": "dry_run_placeholder"
+    },
+    {
+      "new_shot_id": "new_005",
+      "max_duration_ms": 12000,
+      "status": "dry_run_placeholder"
+    }
+  ]
+}

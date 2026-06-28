@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "input_manifest",
+  "created_at": "2026-06-27T11:21:08.732387Z",
+  "source_artifacts": [],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "inputs": {
+    "reference_video": "./examples/fake_reference.mp4",
+    "product_images": "./examples/product_images",
+    "dry_run_fixture": true,
+    "face_policy": "no_visible_face",
+    "originality_policy": "structure_only_original_rebuild"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "ocr_subtitles",
+  "created_at": "2026-06-27T11:21:08.737292Z",
+  "source_artifacts": [
+    "raw_shots.json"
+  ],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "subtitle_groups": [
+    {
+      "subtitle_group_id": "sub_001",
+      "reference_shot_ids": [
+        "ref_001"
+      ],
+      "text": "Reference caption 1",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 0,
+      "end_ms": 3000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_002",
+      "reference_shot_ids": [
+        "ref_002"
+      ],
+      "text": "Reference caption 2",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 3000,
+      "end_ms": 6000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_003",
+      "reference_shot_ids": [
+        "ref_003"
+      ],
+      "text": "Reference caption 3",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 6000,
+      "end_ms": 9000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_004",
+      "reference_shot_ids": [
+        "ref_004"
+      ],
+      "text": "Reference caption 4",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 9000,
+      "end_ms": 12000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_005",
+      "reference_shot_ids": [
+        "ref_005"
+      ],
+      "text": "Reference caption 5",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 12000,
+      "end_ms": 15000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_006",
+      "reference_shot_ids": [
+        "ref_006"
+      ],
+      "text": "Reference caption 6",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 15000,
+      "end_ms": 18000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_007",
+      "reference_shot_ids": [
+        "ref_007"
+      ],
+      "text": "Reference caption 7",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 18000,
+      "end_ms": 21000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_008",
+      "reference_shot_ids": [
+        "ref_008"
+      ],
+      "text": "Reference caption 8",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 21000,
+      "end_ms": 24000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_009",
+      "reference_shot_ids": [
+        "ref_009"
+      ],
+      "text": "Reference caption 9",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 24000,
+      "end_ms": 27000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_010",
+      "reference_shot_ids": [
+        "ref_010"
+      ],
+      "text": "Reference caption 10",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 27000,
+      "end_ms": 30000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_011",
+      "reference_shot_ids": [
+        "ref_011"
+      ],
+      "text": "Reference caption 11",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 30000,
+      "end_ms": 33000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_012",
+      "reference_shot_ids": [
+        "ref_012"
+      ],
+      "text": "Reference caption 12",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 33000,
+      "end_ms": 36000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_013",
+      "reference_shot_ids": [
+        "ref_013"
+      ],
+      "text": "Reference caption 13",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 36000,
+      "end_ms": 39000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_014",
+      "reference_shot_ids": [
+        "ref_014"
+      ],
+      "text": "Reference caption 14",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 39000,
+      "end_ms": 42000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_015",
+      "reference_shot_ids": [
+        "ref_015"
+      ],
+      "text": "Reference caption 15",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 42000,
+      "end_ms": 45000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_016",
+      "reference_shot_ids": [
+        "ref_016"
+      ],
+      "text": "Reference caption 16",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 45000,
+      "end_ms": 48000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_017",
+      "reference_shot_ids": [
+        "ref_017"
+      ],
+      "text": "Reference caption 17",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 48000,
+      "end_ms": 51000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_018",
+      "reference_shot_ids": [
+        "ref_018"
+      ],
+      "text": "Reference caption 18",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 51000,
+      "end_ms": 54000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_019",
+      "reference_shot_ids": [
+        "ref_019"
+      ],
+      "text": "Reference caption 19",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 54000,
+      "end_ms": 57000,
+      "needs_review": false
+    },
+    {
+      "subtitle_group_id": "sub_020",
+      "reference_shot_ids": [
+        "ref_020"
+      ],
+      "text": "Reference caption 20",
+      "position": "bottom_center",
+      "confidence": 0.91,
+      "start_ms": 57000,
+      "end_ms": 60000,
+      "needs_review": false
+    }
+  ]
+}

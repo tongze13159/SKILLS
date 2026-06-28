@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "video_clips_manifest",
+  "created_at": "2026-06-28T00:37:56.911886Z",
+  "source_artifacts": [
+    "seedance_tasks.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "video_clips": [
+    {
+      "task_id": "sd_grp_001",
+      "new_shot_id": "new_001",
+      "source_new_shot_ids": [
+        "new_001"
+      ],
+      "merge_strategy": "standalone",
+      "status": "dry_run_placeholder",
+      "clip_path": "output/clips/sd_grp_001.mp4",
+      "duration_ms": 6000,
+      "seedance_duration_sec": 6,
+      "input_images": [
+        "/Users/tongze/Desktop/Codex Workspace/project-0001-爆款分镜复刻Skill/.agents/skills/viral-shot-remake-production/tests/mock_run/output/storyboards/sb_001.png"
+      ],
+      "source_segments": [
+        {
+          "new_shot_id": "new_001",
+          "reference_shot_id": "ref_001",
+          "target_start_ms": 0,
+          "target_end_ms": 6000,
+          "target_duration_ms": 6000,
+          "provider_trim_start_ms": 0,
+          "provider_trim_end_ms": 6000
+        }
+      ],
+      "actual_cost_rmb": 0.0
+    },
+    {
+      "task_id": "sd_grp_002",
+      "new_shot_id": "new_002",
+      "source_new_shot_ids": [
+        "new_002"
+      ],
+      "merge_strategy": "standalone",
+      "status": "dry_run_placeholder",
+      "clip_path": "output/clips/sd_grp_002.mp4",
+      "duration_ms": 15000,
+      "seedance_duration_sec": 15,
+      "input_images": [
+        "/Users/tongze/Desktop/Codex Workspace/project-0001-爆款分镜复刻Skill/.agents/skills/viral-shot-remake-production/tests/mock_run/output/storyboards/sb_002.png"
+      ],
+      "source_segments": [
+        {
+          "new_shot_id": "new_002",
+          "reference_shot_id": "ref_002",
+          "target_start_ms": 6000,
+          "target_end_ms": 21000,
+          "target_duration_ms": 15000,
+          "provider_trim_start_ms": 0,
+          "provider_trim_end_ms": 15000
+        }
+      ],
+      "actual_cost_rmb": 0.0
+    },
+    {
+      "task_id": "sd_grp_003",
+      "new_shot_id": "new_003",
+      "source_new_shot_ids": [
+        "new_003"
+      ],
+      "merge_strategy": "standalone",
+      "status": "dry_run_placeholder",
+      "clip_path": "output/clips/sd_grp_003.mp4",
+      "duration_ms": 15000,
+      "seedance_duration_sec": 15,
+      "input_images": [
+        "/Users/tongze/Desktop/Codex Workspace/project-0001-爆款分镜复刻Skill/.agents/skills/viral-shot-remake-production/tests/mock_run/output/storyboards/sb_003.png"
+      ],
+      "source_segments": [
+        {
+          "new_shot_id": "new_003",
+          "reference_shot_id": "ref_002",
+          "target_start_ms": 21000,
+          "target_end_ms": 36000,
+          "target_duration_ms": 15000,
+          "provider_trim_start_ms": 0,
+          "provider_trim_end_ms": 15000
+        }
+      ],
+      "actual_cost_rmb": 0.0
+    },
+    {
+      "task_id": "sd_grp_004",
+      "new_shot_id": "new_004",
+      "source_new_shot_ids": [
+        "new_004"
+      ],
+      "merge_strategy": "standalone",
+      "status": "dry_run_placeholder",
+      "clip_path": "output/clips/sd_grp_004.mp4",
+      "duration_ms": 12000,
+      "seedance_duration_sec": 12,
+      "input_images": [
+        "/Users/tongze/Desktop/Codex Workspace/project-0001-爆款分镜复刻Skill/.agents/skills/viral-shot-remake-production/tests/mock_run/output/storyboards/sb_004.png"
+      ],
+      "source_segments": [
+        {
+          "new_shot_id": "new_004",
+          "reference_shot_id": "ref_003",
+          "target_start_ms": 36000,
+          "target_end_ms": 48000,
+          "target_duration_ms": 12000,
+          "provider_trim_start_ms": 0,
+          "provider_trim_end_ms": 12000
+        }
+      ],
+      "actual_cost_rmb": 0.0
+    },
+    {
+      "task_id": "sd_grp_005",
+      "new_shot_id": "new_005",
+      "source_new_shot_ids": [
+        "new_005"
+      ],
+      "merge_strategy": "standalone",
+      "status": "dry_run_placeholder",
+      "clip_path": "output/clips/sd_grp_005.mp4",
+      "duration_ms": 12000,
+      "seedance_duration_sec": 12,
+      "input_images": [
+        "/Users/tongze/Desktop/Codex Workspace/project-0001-爆款分镜复刻Skill/.agents/skills/viral-shot-remake-production/tests/mock_run/output/storyboards/sb_005.png"
+      ],
+      "source_segments": [
+        {
+          "new_shot_id": "new_005",
+          "reference_shot_id": "ref_003",
+          "target_start_ms": 48000,
+          "target_end_ms": 60000,
+          "target_duration_ms": 12000,
+          "provider_trim_start_ms": 0,
+          "provider_trim_end_ms": 12000
+        }
+      ],
+      "actual_cost_rmb": 0.0
+    }
+  ]
+}

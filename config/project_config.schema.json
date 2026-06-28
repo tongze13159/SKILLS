@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project_config.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_id",
+    "target_market",
+    "video_specs",
+    "audio_rules",
+    "generation_constraints",
+    "cost_rules",
+    "model_defaults",
+    "quality_rules"
+  ],
+  "properties": {
+    "project_id": {"type": "string", "minLength": 1},
+    "target_market": {
+      "type": "object",
+      "required": ["country", "primary_language", "localization_style", "allow_slang"],
+      "properties": {
+        "country": {"type": "string"},
+        "primary_language": {"type": "string"},
+        "localization_style": {"type": "string"},
+        "allow_slang": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "video_specs": {
+      "type": "object",
+      "required": ["aspect_ratio", "target_resolution", "width", "height", "fps", "target_duration_ms", "default_shot_duration_ms"],
+      "properties": {
+        "aspect_ratio": {"type": "string"},
+        "target_resolution": {"type": "string"},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "fps": {"type": "integer", "minimum": 1},
+        "target_duration_ms": {"type": "integer", "minimum": 1},
+        "default_shot_duration_ms": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "audio_rules": {"type": "object"},
+    "generation_constraints": {
+      "type": "object",
+      "required": ["max_json_repair_retries", "allow_fallback_action"],
+      "properties": {
+        "max_json_repair_retries": {"type": "integer", "minimum": 0},
+        "allow_fallback_action": {"type": "boolean"},
+        "strict_real_mode": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "cost_rules": {
+      "type": "object",
+      "required": ["seedance_cost_rmb_per_second", "max_total_cost_rmb", "warn_total_cost_rmb", "stop_on_budget_exceeded"],
+      "properties": {
+        "seedance_cost_rmb_per_second": {"type": "number", "minimum": 0},
+        "max_total_cost_rmb": {"type": "number", "minimum": 0},
+        "warn_total_cost_rmb": {"type": "number", "minimum": 0},
+        "stop_on_budget_exceeded": {"type": "boolean"},
+        "api_unit_prices": {
+          "type": "object",
+          "additionalProperties": {"type": "number", "minimum": 0}
+        }
+      },
+      "additionalProperties": false
+    },
+    "model_defaults": {"type": "object"},
+    "quality_rules": {"type": "object"}
+  }
+}

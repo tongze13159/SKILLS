@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "action_transfer_plan",
+  "created_at": "2026-06-27T11:21:08.750391Z",
+  "source_artifacts": [
+    "reference_shot_strategy.json",
+    "product_action_matrix.json",
+    "product_profile.json"
+  ],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "action_transfer_plan": [
+    {
+      "reference_shot_id": "ref_001",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_002",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_003",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_004",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_005",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_006",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_007",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_008",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_009",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_010",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_011",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_012",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_013",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_014",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_015",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_016",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_017",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_018",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_019",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    },
+    {
+      "reference_shot_id": "ref_020",
+      "reference_action": "demonstrate reference product function",
+      "new_action_id": "act_001_fallback",
+      "new_product_action": "stretch and cover bowl with flexible rim",
+      "action_type": "functionally_equivalent",
+      "keep": [
+        "close product focus",
+        "clear before-after logic"
+      ],
+      "change": [
+        "mechanics",
+        "hand position",
+        "background",
+        "wording"
+      ],
+      "physical_reason": "The new product seals through elastic tension, not rigid pressure.",
+      "video_generation_risk": [
+        "rigid lid appearance",
+        "hidden elastic rim"
+      ],
+      "negative_prompt_rules": [
+        "do not create a hard lid",
+        "do not hide the elastic rim",
+        "no visible face"
+      ]
+    }
+  ]
+}

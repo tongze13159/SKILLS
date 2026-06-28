@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "cost_ledger",
+  "created_at": "2026-06-27T11:21:08.732024Z",
+  "source_artifacts": [],
+  "model_info": {
+    "provider": "local",
+    "model": "deterministic",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "budget_rmb": 120,
+  "warn_budget_rmb": 100,
+  "spent_rmb": 0.0,
+  "estimated_rmb": 60.0,
+  "items": [
+    {
+      "step": "01_ingest_inputs",
+      "artifacts": [
+        "input_manifest.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "02_preprocess_video",
+      "artifacts": [
+        "raw_shots.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "03_extract_subtitles",
+      "artifacts": [
+        "ocr_subtitles.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "04_transcribe_voice",
+      "artifacts": [
+        "voice_transcript.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "05_reference_visual_analysis",
+      "artifacts": [
+        "reference_visual_analysis.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "06_reference_shot_strategy",
+      "artifacts": [
+        "reference_shot_strategy.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "07_product_profile",
+      "artifacts": [
+        "product_profile.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "08_product_action_matrix",
+      "artifacts": [
+        "product_action_matrix.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "09_action_transfer",
+      "artifacts": [
+        "action_transfer_plan.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "10_new_video_plan",
+      "artifacts": [
+        "new_video_plan.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "11_subtitle_voiceover",
+      "artifacts": [
+        "subtitle_script.json",
+        "voiceover_script.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "12_audio_asset_manifest",
+      "artifacts": [
+        "audio_asset_manifest.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "13_storyboard_prompts",
+      "artifacts": [
+        "storyboard_prompts.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "14_generate_storyboards",
+      "artifacts": [
+        "storyboard_manifest.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "15_storyboard_precheck",
+      "artifacts": [
+        "storyboard_precheck.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "16_compile_seedance_tasks",
+      "artifacts": [
+        "seedance_tasks.json"
+      ],
+      "estimated_cost_rmb": 60.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "17_generate_video_clips",
+      "artifacts": [
+        "video_clips_manifest.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "18_generate_voiceover",
+      "artifacts": [
+        "voiceover_asset_manifest.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    },
+    {
+      "step": "19_render_final_video",
+      "artifacts": [
+        "render_plan.json",
+        "final_video_manifest.json"
+      ],
+      "estimated_cost_rmb": 0.0,
+      "actual_cost_rmb": 0.0,
+      "dry_run": true
+    }
+  ]
+}

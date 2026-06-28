@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "raw_shots",
+  "created_at": "2026-06-27T11:21:08.733917Z",
+  "source_artifacts": [
+    "input_manifest.json"
+  ],
+  "model_info": {
+    "provider": "dry-run",
+    "model": "deterministic-fixture",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "video_meta": {
+    "duration_ms": 60000,
+    "aspect_ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "has_audio": true
+  },
+  "raw_shots": [
+    {
+      "reference_shot_id": "ref_001",
+      "start_ms": 0,
+      "end_ms": 3000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_001_start.jpg",
+        "middle": "output/keyframes/ref_001_middle.jpg",
+        "end": "output/keyframes/ref_001_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_001_peak_01.jpg"
+      ],
+      "motion_intensity": "high"
+    },
+    {
+      "reference_shot_id": "ref_002",
+      "start_ms": 3000,
+      "end_ms": 6000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_002_start.jpg",
+        "middle": "output/keyframes/ref_002_middle.jpg",
+        "end": "output/keyframes/ref_002_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_002_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_003",
+      "start_ms": 6000,
+      "end_ms": 9000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_003_start.jpg",
+        "middle": "output/keyframes/ref_003_middle.jpg",
+        "end": "output/keyframes/ref_003_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_003_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_004",
+      "start_ms": 9000,
+      "end_ms": 12000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_004_start.jpg",
+        "middle": "output/keyframes/ref_004_middle.jpg",
+        "end": "output/keyframes/ref_004_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_004_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_005",
+      "start_ms": 12000,
+      "end_ms": 15000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_005_start.jpg",
+        "middle": "output/keyframes/ref_005_middle.jpg",
+        "end": "output/keyframes/ref_005_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_005_peak_01.jpg"
+      ],
+      "motion_intensity": "high"
+    },
+    {
+      "reference_shot_id": "ref_006",
+      "start_ms": 15000,
+      "end_ms": 18000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_006_start.jpg",
+        "middle": "output/keyframes/ref_006_middle.jpg",
+        "end": "output/keyframes/ref_006_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_006_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_007",
+      "start_ms": 18000,
+      "end_ms": 21000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_007_start.jpg",
+        "middle": "output/keyframes/ref_007_middle.jpg",
+        "end": "output/keyframes/ref_007_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_007_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_008",
+      "start_ms": 21000,
+      "end_ms": 24000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_008_start.jpg",
+        "middle": "output/keyframes/ref_008_middle.jpg",
+        "end": "output/keyframes/ref_008_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_008_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_009",
+      "start_ms": 24000,
+      "end_ms": 27000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_009_start.jpg",
+        "middle": "output/keyframes/ref_009_middle.jpg",
+        "end": "output/keyframes/ref_009_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_009_peak_01.jpg"
+      ],
+      "motion_intensity": "high"
+    },
+    {
+      "reference_shot_id": "ref_010",
+      "start_ms": 27000,
+      "end_ms": 30000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_010_start.jpg",
+        "middle": "output/keyframes/ref_010_middle.jpg",
+        "end": "output/keyframes/ref_010_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_010_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_011",
+      "start_ms": 30000,
+      "end_ms": 33000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_011_start.jpg",
+        "middle": "output/keyframes/ref_011_middle.jpg",
+        "end": "output/keyframes/ref_011_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_011_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_012",
+      "start_ms": 33000,
+      "end_ms": 36000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_012_start.jpg",
+        "middle": "output/keyframes/ref_012_middle.jpg",
+        "end": "output/keyframes/ref_012_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_012_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_013",
+      "start_ms": 36000,
+      "end_ms": 39000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_013_start.jpg",
+        "middle": "output/keyframes/ref_013_middle.jpg",
+        "end": "output/keyframes/ref_013_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_013_peak_01.jpg"
+      ],
+      "motion_intensity": "high"
+    },
+    {
+      "reference_shot_id": "ref_014",
+      "start_ms": 39000,
+      "end_ms": 42000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_014_start.jpg",
+        "middle": "output/keyframes/ref_014_middle.jpg",
+        "end": "output/keyframes/ref_014_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_014_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_015",
+      "start_ms": 42000,
+      "end_ms": 45000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_015_start.jpg",
+        "middle": "output/keyframes/ref_015_middle.jpg",
+        "end": "output/keyframes/ref_015_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_015_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_016",
+      "start_ms": 45000,
+      "end_ms": 48000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_016_start.jpg",
+        "middle": "output/keyframes/ref_016_middle.jpg",
+        "end": "output/keyframes/ref_016_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_016_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_017",
+      "start_ms": 48000,
+      "end_ms": 51000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_017_start.jpg",
+        "middle": "output/keyframes/ref_017_middle.jpg",
+        "end": "output/keyframes/ref_017_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_017_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_018",
+      "start_ms": 51000,
+      "end_ms": 54000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_018_start.jpg",
+        "middle": "output/keyframes/ref_018_middle.jpg",
+        "end": "output/keyframes/ref_018_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_018_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_019",
+      "start_ms": 54000,
+      "end_ms": 57000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_019_start.jpg",
+        "middle": "output/keyframes/ref_019_middle.jpg",
+        "end": "output/keyframes/ref_019_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_019_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    },
+    {
+      "reference_shot_id": "ref_020",
+      "start_ms": 57000,
+      "end_ms": 60000,
+      "duration_ms": 3000,
+      "keyframes": {
+        "start": "output/keyframes/ref_020_start.jpg",
+        "middle": "output/keyframes/ref_020_middle.jpg",
+        "end": "output/keyframes/ref_020_end.jpg"
+      },
+      "motion_peak_frames": [
+        "output/keyframes/ref_020_peak_01.jpg"
+      ],
+      "motion_intensity": "medium"
+    }
+  ]
+}

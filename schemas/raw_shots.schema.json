@@ -1,0 +1,196 @@
+{
+  "$defs": {
+    "ModelInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "model": {
+          "title": "Model",
+          "type": "string"
+        },
+        "temperature": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Temperature"
+        }
+      },
+      "required": [
+        "provider",
+        "model"
+      ],
+      "title": "ModelInfo",
+      "type": "object"
+    },
+    "RawShot": {
+      "additionalProperties": false,
+      "properties": {
+        "reference_shot_id": {
+          "pattern": "^ref_\\d{3}$",
+          "title": "Reference Shot Id",
+          "type": "string"
+        },
+        "start_ms": {
+          "minimum": 0,
+          "title": "Start Ms",
+          "type": "integer"
+        },
+        "end_ms": {
+          "exclusiveMinimum": 0,
+          "title": "End Ms",
+          "type": "integer"
+        },
+        "duration_ms": {
+          "exclusiveMinimum": 0,
+          "title": "Duration Ms",
+          "type": "integer"
+        },
+        "keyframes": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Keyframes",
+          "type": "object"
+        },
+        "motion_peak_frames": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Motion Peak Frames",
+          "type": "array"
+        },
+        "motion_intensity": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "title": "Motion Intensity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "reference_shot_id",
+        "start_ms",
+        "end_ms",
+        "duration_ms",
+        "keyframes",
+        "motion_peak_frames",
+        "motion_intensity"
+      ],
+      "title": "RawShot",
+      "type": "object"
+    },
+    "VideoMeta": {
+      "additionalProperties": false,
+      "properties": {
+        "duration_ms": {
+          "exclusiveMinimum": 0,
+          "title": "Duration Ms",
+          "type": "integer"
+        },
+        "aspect_ratio": {
+          "title": "Aspect Ratio",
+          "type": "string"
+        },
+        "width": {
+          "exclusiveMinimum": 0,
+          "title": "Width",
+          "type": "integer"
+        },
+        "height": {
+          "exclusiveMinimum": 0,
+          "title": "Height",
+          "type": "integer"
+        },
+        "fps": {
+          "exclusiveMinimum": 0,
+          "title": "Fps",
+          "type": "integer"
+        },
+        "has_audio": {
+          "title": "Has Audio",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "duration_ms",
+        "aspect_ratio",
+        "width",
+        "height",
+        "fps",
+        "has_audio"
+      ],
+      "title": "VideoMeta",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "artifact_id": {
+      "title": "Artifact Id",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "source_artifacts": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Artifacts",
+      "type": "array"
+    },
+    "model_info": {
+      "$ref": "#/$defs/ModelInfo"
+    },
+    "cost_rmb": {
+      "default": 0.0,
+      "minimum": 0,
+      "title": "Cost Rmb",
+      "type": "number"
+    },
+    "video_meta": {
+      "$ref": "#/$defs/VideoMeta"
+    },
+    "raw_shots": {
+      "items": {
+        "$ref": "#/$defs/RawShot"
+      },
+      "title": "Raw Shots",
+      "type": "array"
+    }
+  },
+  "required": [
+    "project_id",
+    "artifact_id",
+    "created_at",
+    "model_info",
+    "video_meta",
+    "raw_shots"
+  ],
+  "title": "RawShotsArtifact",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "raw_shots.schema.json"
+}

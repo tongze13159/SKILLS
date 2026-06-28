@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "remake_campaign_001",
+  "artifact_id": "voiceover_script",
+  "created_at": "2026-06-28T00:37:56.893831Z",
+  "source_artifacts": [
+    "new_video_plan.json"
+  ],
+  "model_info": {
+    "provider": "mock",
+    "model": "mock-adapter",
+    "temperature": 0.0
+  },
+  "cost_rmb": 0.0,
+  "voiceover_script": [
+    {
+      "new_shot_id": "new_001",
+      "text": "Senang sangat guna ni, dapur terus nampak lebih kemas.",
+      "meaning_zh": "这个使用方便，厨房看起来马上更整洁。",
+      "language": "Malay",
+      "gender": "female",
+      "tone": "natural_ecommerce_sharing",
+      "max_duration_ms": 6000,
+      "max_words": 10
+    },
+    {
+      "new_shot_id": "new_002",
+      "text": "Senang sangat guna ni, dapur terus nampak lebih kemas.",
+      "meaning_zh": "这个使用方便，厨房看起来马上更整洁。",
+      "language": "Malay",
+      "gender": "female",
+      "tone": "natural_ecommerce_sharing",
+      "max_duration_ms": 15000,
+      "max_words": 10
+    },
+    {
+      "new_shot_id": "new_003",
+      "text": "Senang sangat guna ni, dapur terus nampak lebih kemas.",
+      "meaning_zh": "这个使用方便，厨房看起来马上更整洁。",
+      "language": "Malay",
+      "gender": "female",
+      "tone": "natural_ecommerce_sharing",
+      "max_duration_ms": 15000,
+      "max_words": 10
+    },
+    {
+      "new_shot_id": "new_004",
+      "text": "Senang sangat guna ni, dapur terus nampak lebih kemas.",
+      "meaning_zh": "这个使用方便，厨房看起来马上更整洁。",
+      "language": "Malay",
+      "gender": "female",
+      "tone": "natural_ecommerce_sharing",
+      "max_duration_ms": 12000,
+      "max_words": 10
+    },
+    {
+      "new_shot_id": "new_005",
+      "text": "Senang sangat guna ni, dapur terus nampak lebih kemas.",
+      "meaning_zh": "这个使用方便，厨房看起来马上更整洁。",
+      "language": "Malay",
+      "gender": "female",
+      "tone": "natural_ecommerce_sharing",
+      "max_duration_ms": 12000,
+      "max_words": 10
+    }
+  ]
+}
